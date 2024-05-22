@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .banner h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

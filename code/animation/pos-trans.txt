@@ -1,0 +1,9 @@
+position: it makes an element stay where ever we want
+we have 5 position values
+static: by default ,all elements have position static,top left ,bottom right will not have any impact on static
+relative: relative elements compares from its previous position so top:20px will move element 20px bottom from its previous position
+absoulte: absolute
+fixed:
+sticky:
+
+

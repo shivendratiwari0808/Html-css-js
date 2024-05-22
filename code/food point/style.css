@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    min-width: 400px;
+    overflow-x: hidden;
+    background-color: #172b44;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5%;
+    color: #172b44;
+    height: 80px;
+    width: 100%;
+    background-color: #112031;
+    z-index: 1;
+}
+header .logo
+{
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    color: #febd01;
+}
+header .logo span
+{
+    font-weight: 200;
+
+}
+header .menu
+{
+    display: flex;
+    align-items: center;
+}
+header .menu li a
+{
+    display: block;
+    text-align: center;
+    width: 110PX;
+    list-style: 20PX;
+    color: #fff;
+    background: #febd01;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 15px 0 15px 0;
+    margin-left: 15px;
+    transition-property: background , color, border;
+    transition-duration: 0.4s;
+}
+header .menu li a:hover
+{
+    background-color: #112031;
+    columns: #febd01;
+    border: 2px solid #febd01;
+}
+#toggle
+{
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+
+}
+.overlay
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+.overlay h1
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20vw;
+    font-weight: 900;
+    opacity: 0.03;
+    text-align: center;
+    line-height: 28vw;
+    transform: rotate(-5deg);
+}
+.home
+{
+    padding: 5rem 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.home .content-bx,
+.home .img-bx
+{
+    width: 60%;
+    position: relative;
+
+}
+.home .content-bx h3
+{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 4px;
+    letter-spacing: 5px;
+
+}
+.home .content-bx h2
+{
+    font-family: 'chewy'sans-serif;
+    color: #febd01;
+    font-size: 4.4rem;
+    font-weight: 400;
+    margin: -5px 0 10px;
+}
+.home .content-bx p
+{
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+}
+.home .content-bx button
+{
+    outline: none;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #febd01;
+    background: #febd01;
+    color: #172b44;
+    cursor: pointer;
+    transition-property: background, color;
+    transition-duration: 0.4s;
+}
+.home .content-bx button:hover
+{
+    background: transparent;
+    color: #febd01;
+}
+@media (max-width:1024px)
+{
+    header .menu li a
+    {
+        font-size: 0.88rem;
+        width: 95px;
+    }
+    .home .content-bx h3 
+    {
+        font-size: 0.75rem;
+    }
+    .home .content-bx h2
+    {
+        font-size: 3.75rem;
+    }
+    .hpme .content-bx p
+    {
+        font-size: 0.75rem;
+    }
+    
+}
+@media (max-width:900px)
+{
+    header .logo
+    {
+        letter-spacing: -1px;
+        font-size: 1.88rem;
+
+    }
+    header .menu li a
+    {
+        font-size: 0.75rem;
+        width: 80px;
+    }
+    .menu .content-bx h3
+    {
+        letter-spacing: 3px;
+    }
+    .menu .content-bx h2
+    {
+        font-size: 3.12rem;
+    }
+    .home .content-bx p
+    {
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+    }
+    .home .content-bx button
+    {
+        font-size: 0.8rem;
+        padding: 0.25rem;
+    }
+}
+

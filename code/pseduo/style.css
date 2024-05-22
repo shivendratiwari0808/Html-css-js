@@ -1,0 +1,76 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box:hover{
+    background-color: blue;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+/* input:required{
+    background-color: rgb(255, 111, 0);
+}
+input:optional{
+    background-color: black;
+}
+input:read-only{
+    background-color: red;
+}
+input:read-write{
+    background-color: black;
+} 
+input:disabled{
+    background-color: yellow;
+}
+input:enabled{
+    background-color: brown;
+}
+input:focus{
+    border-radius: 50px;
+    
+}
+input:user-invalid{
+    color: red;
+}*/
+.box:nth-child(even)
+{
+    background-color: blue;
+}
+button:nth-of-type(2)
+{
+    background-color: blueviolet;
+}
+.box:empty{
+    background-color: rgb(221, 157, 17);
+}
+/*.box:not(.para){
+    background-color: greenyellow;
+}*/
+p:where(div p){
+    background-color: cornflowerblue;
+
+}
+div:has(.para)
+{
+    background-color: blue;
+}
+p::first-letter{
+    font size: 45px;
+
+}
+input::placeholder{
+    color: red;
+}
+.para::after{
+    content: "shivendra";
+}
+

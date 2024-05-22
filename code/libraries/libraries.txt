@@ -1,0 +1,3 @@
+libraries:
+library is a pre defined (writen)code used for a specific
+purpose 

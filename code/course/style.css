@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(221, 57, 57);
+    color: white;
+}
+.nav{
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+.home{
+    border: 1px solid rgb(78, 8, 8);
+    background-color: black;
+    color: aqua;
+    border-radius: 5px;
+}
+.home:hover{
+    background-color: transparent;
+    
+}
+.nav a:hover{
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+.nav a:hover::after{
+    width: 100%;
+}
