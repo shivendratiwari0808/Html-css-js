@@ -77,6 +77,11 @@ header .menu li a:hover
     display: none;
 
 }
+.content-bx{
+    display: flex;
+    justify-content: center;
+    
+}
 .overlay
 {
     position: absolute;
@@ -102,7 +107,7 @@ header .menu li a:hover
 }
 .home
 {
-    padding: 5rem 5% 0;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,6 +145,7 @@ header .menu li a:hover
     font-size: 0.85rem;
     font-weight: 300;
     margin-bottom: 25px;
+    padding: 20px;
 
 }
 .home .content-bx button
@@ -161,6 +167,9 @@ header .menu li a:hover
 {
     background: transparent;
     color: #febd01;
+}
+.img-box{
+    
 }
 @media (max-width:1024px)
 {

@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    margin: 350px;
+}
+.login-box {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #00ff0a;
+}
+.login-box form {
+    width: 100%;
+    padding: 0 50px;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    color: #00ff0a;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    margin: 25px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: center;
+}
+.email{
+    border: 1px solid green;
+}
+.btn{
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.box{
+    border: 2px solid green;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.box1{
+    padding: 1px;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.btn:hover{
+    background-color: red;
+    transition: all 1s ease;
+}
+
+
+
+
+
+
